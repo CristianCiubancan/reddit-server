@@ -56,7 +56,7 @@ PaginatedPosts = __decorate([
 ], PaginatedPosts);
 let PostResolver = class PostResolver {
     textSnippet(root) {
-        return root.text.slice(0, 50);
+        return root.text.slice(0, 100);
     }
     creator(post, { userLoader }) {
         return userLoader.load(post.creatorId);
