@@ -54,7 +54,11 @@ To run this project you will need to do the following:
    yarn install
    ```
 3. Edit the `.env` file
-4. Run the server
+4. build the js version or watch for changes
+   ```sh
+   yarn watch
+   ```
+5. Run the server
    ```sh
    yarn dev
    ```
